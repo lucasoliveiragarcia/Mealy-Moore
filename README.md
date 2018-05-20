@@ -17,6 +17,8 @@ O programa principal MealyMoore é construido usando a própria IDE gerando um e
 Foi executado diversas vezes via linha de comando em ambos os sistemas operacionais. 
 No Ubuntu a própria IDE recomenda o endereço do executável entre aspas duplas, e os arquivos de entrada e saida com endereços completos depois do fechamento da aspas.
 Procuramos usar a classe scanner e o split considerando que o tokenizer esta assinalado como "deprecated".
+
 Exemplo da linha de comando no windows10:  
 C:\Users\Olavo>java -jar C:\Users\Olavo\Documents\MealyMoore\dist\MealyMoore.jar  -i C:\Users\Olavo\Documents\MealyMoore\src\defaultpackage\testeMealyB.txt -o C:\Users\Olavo\Documents\MealyMoore\src\defaultpackage\saidaMealyB.txt
+
 No Ubuntu 17.10 temos a seguite linha de comando como exemplo:
