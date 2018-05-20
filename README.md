@@ -12,4 +12,4 @@ O projeto encontra-se dentro da pasta compactada MealyMoore.zip . Dentro do paco
 Na raiz da pasta do projeto encontra-se o arquivo build e no pacote defaultpackage contém os arquivos de teste.
 
 # Modo de uso
-
+Foi utilizado a linguagem java e feito na IDE Netbeans.
