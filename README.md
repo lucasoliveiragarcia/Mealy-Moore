@@ -12,4 +12,11 @@ O projeto encontra-se dentro da pasta compactada MealyMoore.zip . Dentro do paco
 Na raiz da pasta do projeto encontra-se o arquivo build e no pacote defaultpackage contém os arquivos de teste.
 
 # Modo de uso
-Foi utilizado a linguagem java e feito na IDE Netbeans.
+Os programas foram desenvolvidos em java 8, e atrvés da IDE NetBeans 8.2tanto  no windows10 como no Ubuntu 17.10.
+O programa principal MealyMoore é construido usando a própria IDE gerando um executável na pasta "dist" dentro da estrutura de pastas da IDE. A execução via linha de comando precisa chamar o executável na referida pasta, com o endereço completo ou dentro da própria pasta.
+Foi executado diversas vezes via linha de comando em ambos os sistemas operacionais. 
+No Ubuntu a própria IDE recomenda o endereço do executável entre aspas duplas, e os arquivos de entrada e saida com endereços completos depois do fechamento da aspas.
+Procuramos usar a classe scanner e o split considerando que o tokenizer esta assinalado como "deprecated".
+Exemplo da linha de comando no windows10:  
+C:\Users\Olavo>java -jar C:\Users\Olavo\Documents\MealyMoore\dist\MealyMoore.jar  -i C:\Users\Olavo\Documents\MealyMoore\src\defaultpackage\testeMealyB.txt -o C:\Users\Olavo\Documents\MealyMoore\src\defaultpackage\saidaMealyB.txt
+No Ubuntu 17.10 temos a seguite linha de comando como exemplo:
