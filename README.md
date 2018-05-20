@@ -22,3 +22,53 @@ Exemplo da linha de comando no windows10:
 C:\Users\Olavo>java -jar C:\Users\Olavo\Documents\MealyMoore\dist\MealyMoore.jar  -i C:\Users\Olavo\Documents\MealyMoore\src\defaultpackage\testeMealyB.txt -o C:\Users\Olavo\Documents\MealyMoore\src\defaultpackage\saidaMealyB.txt
 
 No Ubuntu 17.10 temos a seguite linha de comando como exemplo:
+olavo@olavo-Inspiron-N4050:~$ java -jar "/home/olavo/MealyMoore/dist/MealyMoore.jar" -i /home/olavo/MealyMoore/src/defaultpackage/testeMealyB.txt -o /home/olavo/MealyMoore/src/defaultpackage/saidaMooreBLinux.txt
+Com a impressão na tela conforme abaixo e o registro em arquivo conforme especificado no padrão S-Expressions.
+
+*** Mealy Machine created from file. ***
+
+Maquina de Mealy: 
+
+Input: 
+[a, b]
+Output: 
+[u, v]
+States: 
+[q0, q1, q2]
+Start: 
+q0
+Finals: 
+[q2]
+Trans: 
+[[q0, q1, a, u], [q0, q2, b, v], [q1, q2, a, u], [q2, q1, b, v]]
+
+***Moore Machine Convertida***
+
+
+
+Maquina de Moore: 
+
+Input: 
+[a, b]
+Output: 
+[u, v]
+States: 
+[q0, q1, q1', q2, q2']
+Start: 
+q0
+Finals: 
+[q2, q2']
+Trans:
+[q0,q1,a]
+[q2,q1',b]
+[q0,q2,b]
+[q1,q2',a]
+out-fn:
+[q0,()]
+[q1,u]
+[q1',v]
+[q2,v]
+[q2',u]
+olavo@olavo-Inspiron-N4050:~$ 
+
+
